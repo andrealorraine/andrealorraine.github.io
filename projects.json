@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Personal Webpage",
+    "description": "A personal webpage that introduces who I am, my background, and my interests.",
+    "role": "Solo developer (design and code)",
+    "tech": ["HTML"],
+    "image": "image1.jfif",
+    "alt": "Screenshot of my Personal Webpage",
+    "demo": "https://andrealorraine.github.io/personal-webpage/",
+    "github": "https://github.com/andrealorraine/personal-webpage"
+  },
+  {
+    "title": "Login Page",
+    "description": "A clean login page design built with HTML and CSS.",
+    "role": "Solo developer (design)",
+    "tech": ["HTML", "CSS"],
+    "image": "image2.jfif",
+    "alt": "Screenshot of my Login Page",
+    "demo": "https://andrealorraine.github.io/login-page/",
+    "github": "https://github.com/andrealorraine/login-page"
+  },
+  {
+    "title": "Website Design for a Local Store",
+    "description": "A responsive website where the community can contact and order via website.",
+    "role": "Web design and structure",
+    "tech": ["HTML", "CSS", "JavaScript"],
+    "image": "",
+    "alt": "",
+    "demo": "",
+    "github": ""
+  }
+]
