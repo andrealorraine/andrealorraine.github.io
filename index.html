@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Andrea Lorraine Buen | Personal Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#home">Andrea Buen</a>
+    <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="navList">Menu</button>
+    <nav aria-label="Main navigation">
+      <ul id="navList">
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HOME -->
+    <section id="home" class="hero">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <p class="kicker">Hello, I'm</p>
+          <h1>Andrea Lorraine F. Buen</h1>
+          <p class="tagline">Hard work, a hopeful mindset, and the courage to try again.</p>
+          <p class="intro">I love solving problems and turning challenges into simple, and clear solutions.</p>
+          <div class="cta">
+            <a href="#projects" class="btn">View my projects</a>
+            <a href="#contact" class="btn btn-outline">Contact me</a>
+          </div>
+        </div>
+        <img class="photo" src="image.jfif" alt="Photo of Andrea Lorraine F. Buen">
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <div class="container">
+        <h2>About</h2>
+        <div class="grid two">
+          <div class="box">
+            <h3>Biography</h3>
+            <p>I'm a 19-year-old Filipino IT student from Nueva Vizcaya. I enjoy exploring and solving problems with code, and I'm always willing to continuously learn something new. I speak Iloco, Filipino, and English.</p>
+          </div>
+          <div class="box">
+            <h3>Career goals</h3>
+            <p>To finish my IT degree with laude and work as a web developer for a company where I can keep growing my skills.</p>
+          </div>
+          <div class="box">
+            <h3>Education</h3>
+            <ul class="timeline">
+              <li><strong>BS in Information Technology</strong>Nueva Vizcaya State University<span>2025 to 2029 (expected graduation)</span></li>
+              <li><strong>Senior High School, STEM Strand</strong>Aritao National High School<span>2023 to 2025</span></li>
+              <li><strong>Junior High School, ICT</strong>Aritao National High School<span>2019 to 2023</span></li>
+            </ul>
+          </div>
+          <div class="box">
+            <h3>Interests</h3>
+            <ul class="tags"><li>Web Design</li><li>Database</li><li>Programming</li><li>Logic</li><li>Sports</li></ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section alt">
+      <div class="container">
+        <h2>Skills</h2>
+        <div class="grid two">
+          <div class="box">
+            <h3>Programming languages</h3>
+            <ul class="bars">
+              <li><span>Java</span><div class="bar"><i style="width:80%"></i></div></li>
+              <li><span>SQL</span><div class="bar"><i style="width:60%"></i></div></li>
+              <li><span>Python</span><div class="bar"><i style="width:40%"></i></div></li>
+              <li><span>JavaScript</span><div class="bar"><i style="width:30%"></i></div></li>
+            </ul>
+          </div>
+          <div class="box">
+            <h3>Tools and technologies</h3>
+            <ul class="tags"><li>Eclipse IDE</li><li>IntelliJ</li><li>VS Code</li></ul>
+            <h3 class="gap-top">Soft skills</h3>
+            <ul class="tags"><li>Teamwork</li><li>Communication</li><li>Problem solving</li><li>Adaptability</li><li>Accountability</li></ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section">
+      <div class="container">
+        <h2>Projects</h2>
+        <div class="grid three">
+          <article class="box project">
+            <img class="shot" src="image1.jfif" alt="Screenshot of my Personal Webpage">
+            <h3>Personal Webpage</h3>
+            <p>My Personal Webpage Design</p>
+            <p class="role-line"><strong>My role:</strong> Solo developer (design and code)</p>
+            <ul class="tags"><li>HTML</li></ul>
+            <a href="https://github.com/andrealorraine/personal-webpage" target="_blank" rel="noopener">View on GitHub</a>
+          </article>
+          <article class="box project">
+            <img class="shot" src="image2.jfif" alt="Screenshot of my Login Page">
+            <h3>Login Page</h3>
+            <p>My login page</p>
+            <p class="role-line"><strong>My role:</strong> Solo developer (design)</p>
+            <ul class="tags"><li>HTML</li><li>CSS</li></ul>
+            <a href="https://github.com/andrealorraine/login-page" target="_blank" rel="noopener">View on GitHub</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section alt">
+      <div class="container">
+        <h2>Contact</h2>
+        <div class="grid two">
+          <div class="box">
+            <h3>Reach me</h3>
+            <ul class="links">
+              <li><span>Email</span><a href="mailto:andrealorrainebuen@gmail.com">andrealorrainebuen@gmail.com</a></li>
+              <li><span>GitHub</span><a href="https://github.com/andrealorraine" target="_blank" rel="noopener">github.com/andrealorraine</a></li>
+              <li><span>Location</span>Nueva Vizcaya, Philippines</li>
+            </ul>
+          </div>
+          <form id="contactForm" class="box" novalidate>
+            <h3>Send me a message</h3>
+            <label for="from">Name</label>
+            <input id="from" type="text" placeholder="Your name" autocomplete="name">
+            <small class="error" id="fromError"></small>
+            <label for="email">Email</label>
+            <input id="email" type="email" placeholder="you@example.com" autocomplete="email">
+            <small class="error" id="emailError"></small>
+            <label for="message">Message</label>
+            <textarea id="message" rows="5" placeholder="Write your message here"></textarea>
+            <small class="error" id="messageError"></small>
+            <button type="submit" class="btn">Send</button>
+            <p id="formStatus" class="status" role="status"></p>
+
+            
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">© 2026 Andrea Lorraine F. Buen</footer>
+  <script src="script.js"></script>
+</body>
+</html>
