@@ -6,7 +6,7 @@
     "image": "image1.jfif",
     "alt": "Screenshot of my Personal Webpage",
     "tags": ["HTML"],
-    "url": "https://github.com/andrealorraine/personal-webpage",
+    "url": "https://andrealorraine.github.io/personal-webpage/",
     "linkText": "View on GitHub"
   },
   {
@@ -16,7 +16,7 @@
     "image": "image2.jfif",
     "alt": "Screenshot of my Login Page",
     "tags": ["HTML", "CSS"],
-    "url": "https://github.com/andrealorraine/login-page",
+    "url": "https://andrealorraine.github.io/login-page/",
     "linkText": "View on GitHub"
   },
   {
@@ -26,7 +26,7 @@
     "image": "website.jfif",
     "alt": "Screenshot of the NAZKA VILLEA room reservation website",
     "tags": ["HTML", "CSS", "JavaScript", "JSON"],
-    "url": "https://github.com/andrealorraine/NAZKA-Villea",
+    "url": "https://andrealorraine.github.io/NAZKA-Villea/",
     "linkText": "View on GitHub"
   },
   {
