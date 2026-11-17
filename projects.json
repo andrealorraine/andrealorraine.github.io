@@ -1,15 +1,5 @@
 [
   {
-    "title": "Personal Webpage",
-    "description": "My Personal Webpage Design",
-    "role": "Solo developer (design and code)",
-    "image": "image1.jfif",
-    "alt": "Screenshot of my Personal Webpage",
-    "tags": ["HTML"],
-    "liveUrl": "https://andrealorraine.github.io/personal-webpage/",
-    "repoUrl": "https://github.com/andrealorraine/personal-webpage"
-  },
-  {
     "title": "Login Page",
     "description": "My login page",
     "role": "Solo developer (design)",
