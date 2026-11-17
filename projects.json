@@ -1,32 +1,43 @@
 [
   {
     "title": "Personal Webpage",
-    "description": "A personal webpage that introduces who I am, my background, and my interests.",
+    "description": "My Personal Webpage Design",
     "role": "Solo developer (design and code)",
-    "tech": ["HTML"],
     "image": "image1.jfif",
     "alt": "Screenshot of my Personal Webpage",
-    "demo": "https://andrealorraine.github.io/personal-webpage/",
-    "github": "https://github.com/andrealorraine/personal-webpage"
+    "tags": ["HTML"],
+    "url": "https://github.com/andrealorraine/personal-webpage",
+    "linkText": "View on GitHub"
   },
   {
     "title": "Login Page",
-    "description": "A clean login page design built with HTML and CSS.",
+    "description": "My login page",
     "role": "Solo developer (design)",
-    "tech": ["HTML", "CSS"],
     "image": "image2.jfif",
     "alt": "Screenshot of my Login Page",
-    "demo": "https://andrealorraine.github.io/login-page/",
-    "github": "https://github.com/andrealorraine/login-page"
+    "tags": ["HTML", "CSS"],
+    "url": "https://github.com/andrealorraine/login-page",
+    "linkText": "View on GitHub"
   },
   {
-    "title": "Website Design for a Local Store",
-    "description": "A responsive website where the community can contact and order via website.",
-    "role": "Web design and structure",
-    "tech": ["HTML", "CSS", "JavaScript"],
-    "image": "",
-    "alt": "",
-    "demo": "",
-    "github": ""
+    "title": "NAZKA VILLEA",
+    "description": "Room Reservation",
+    "role": "Leader: UI Designer",
+    "image": "website.jfif",
+    "alt": "Screenshot of the NAZKA VILLEA room reservation website",
+    "tags": ["HTML", "CSS", "JavaScript", "JSON"],
+    "url": "https://github.com/andrealorraine/NAZKA-Villea",
+    "linkText": "View on GitHub"
+  },
+  {
+    "title": "Parking Spot Saver Application",
+    "description": "Remember where you parked and for how long. An app built on Vercel",
+    "role": "Planner, Prompter, Inspector",
+    "image": "pss.jfif",
+    "alt": "Screenshot of the Parking Spot Saver app",
+    "tags": ["TypeScript"],
+    "url": "https://parking-spot-saver.vercel.app/",
+    "linkText": "View live app"
   }
+]
 ]
