@@ -6,8 +6,8 @@
     "image": "image1.jfif",
     "alt": "Screenshot of my Personal Webpage",
     "tags": ["HTML"],
-    "url": "https://andrealorraine.github.io/personal-webpage/",
-    "linkText": "View on GitHub"
+    "liveUrl": "https://andrealorraine.github.io/personal-webpage/",
+    "repoUrl": "https://github.com/andrealorraine/personal-webpage"
   },
   {
     "title": "Login Page",
@@ -16,8 +16,8 @@
     "image": "image2.jfif",
     "alt": "Screenshot of my Login Page",
     "tags": ["HTML", "CSS"],
-    "url": "https://andrealorraine.github.io/login-page/",
-    "linkText": "View on GitHub"
+    "liveUrl": "https://andrealorraine.github.io/login-page/",
+    "repoUrl": "https://github.com/andrealorraine/login-page"
   },
   {
     "title": "NAZKA VILLEA",
@@ -26,8 +26,8 @@
     "image": "website.jfif",
     "alt": "Screenshot of the NAZKA VILLEA room reservation website",
     "tags": ["HTML", "CSS", "JavaScript", "JSON"],
-    "url": "https://andrealorraine.github.io/NAZKA-Villea/",
-    "linkText": "View on GitHub"
+    "liveUrl": "https://andrealorraine.github.io/NAZKA-Villea/",
+    "repoUrl": "https://github.com/andrealorraine/NAZKA-Villea"
   },
   {
     "title": "Parking Spot Saver Application",
@@ -36,7 +36,7 @@
     "image": "pss.jfif",
     "alt": "Screenshot of the Parking Spot Saver app",
     "tags": ["TypeScript"],
-    "url": "https://parking-spot-saver.vercel.app/",
-    "linkText": "View live app"
+    "liveUrl": "https://parking-spot-saver.vercel.app/",
+    "repoUrl": ""
   }
 ]
