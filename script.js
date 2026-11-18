@@ -1,5 +1,6 @@
+/* ---------- Mobile menu ---------- */
 const menuBtn = document.getElementById("menuBtn");
-const nav = document.querySelector(".topbar nav");
+const nav = document.querySelector(".topbar nav"); // style.css opens the menu with "nav.open"
 
 if (menuBtn && nav) {
   menuBtn.addEventListener("click", () => {
@@ -67,8 +68,8 @@ if (form) {
       valid = false;
     }
 
-    if (fields.message.value.trim().length < 10) {
-      errors.message.textContent = "Message should be at least 10 characters.";
+    if (!fields.message.value.trim()) {
+      errors.message.textContent = "Please write a message.";
       valid = false;
     }
 
@@ -84,7 +85,8 @@ if (form) {
     );
     window.location.href = "mailto:andrealorrainebuen@gmail.com?subject=" + subject + "&body=" + body;
 
-    status.textContent = "Thanks! Your email app should open with your message.";
+    const name = fields.from.value.trim();
+    status.textContent = "Thank you, " + name + "! Your message was sent.";
     form.reset();
   });
 }
